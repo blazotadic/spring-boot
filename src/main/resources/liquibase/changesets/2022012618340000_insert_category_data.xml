@@ -1,0 +1,22 @@
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+
+    <changeSet id="2022012618340000" author="hedza06" context="dev">
+
+<!--        <sql>-->
+<!--            INSERT INTO category(name, description)-->
+<!--            VALUES ('Kategorija 1', 'Opis 1');-->
+<!--        </sql>-->
+
+        <sqlFile
+            path="../seeds/insert_category_data.sql"
+            relativeToChangelogFile="true" />
+
+    </changeSet>
+
+
+</databaseChangeLog>

@@ -1,0 +1,13 @@
+
+<databaseChangeLog
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+
+    <include file="./changesets/20220126174400_added_entity_Category.xml" relativeToChangelogFile="true" />
+    <include file="./changesets/2022012618020000_added_entity_Product.xml" relativeToChangelogFile="true" />
+    <include file="./changesets/2022012618080000_added_category_foreign_key_to_Product.xml" relativeToChangelogFile="true" />
+    <include file="./changesets/2022012618160000_drop_column_is_active_from_Category.xml" relativeToChangelogFile="true" />
+    <include file="./changesets/2022012618340000_insert_category_data.xml" relativeToChangelogFile="true" />
+
+</databaseChangeLog>

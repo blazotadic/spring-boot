@@ -1,0 +1,4 @@
+#Key and value types
+#Sat Jan 22 22:50:24 CET 2022
+valueType=com.academy.demo.dto.CityDTO
+keyType=java.lang.Integer

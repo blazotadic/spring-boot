@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: Logate Academy Demo Application
+  profiles:
+    active: dev
+
+  # Cache Configuration
+  cache:
+    jcache:
+      config: classpath:ehcache.xml
+
+  # Liquibase Configuration
+  liquibase:
+    change-log: classpath:liquibase/master.xml
+
+db-url: test123
+
+jwt:
+  secret: dDEyMzEyMzEyYXNkYQ==
+  validityInMinutes: 5
